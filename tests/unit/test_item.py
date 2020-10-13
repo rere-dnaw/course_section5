@@ -1,19 +1,18 @@
 """
-This file contain unit tests for ItemModels
+This file contain unit1 tests for ItemModels
 """
 
-from tests.unit.models.base_test import BaseTest
-from models.item import ItemModel
+from tests.unit.base_unittest import BaseUnitTest
 
 
-class TestItemModel(BaseTest):
+class TestItemModel(BaseUnitTest):
     """
-    This class will contain unit tests for
+    This class will contain unit1 tests for
     class ItemModel
     """
     def test_init(self):
         """
-        This is unit test for creating a new object
+        This is unit1 test for creating a new object
         """
         self.assertEqual(self.item1.name, 'Head')
         self.assertEqual(self.item1.price, '1000')

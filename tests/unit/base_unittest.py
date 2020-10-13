@@ -1,15 +1,15 @@
 """
 This file will contain a class which will set up
-an attributes for the unit test
+an attributes for the unit1 test
 """
 
 from unittest import TestCase
 from models.item import ItemModel
 
 
-class BaseTest(TestCase):
+class BaseUnitTest(TestCase):
     """
-    This class will setup a a testing class
+    This class will setup a testing class
     """
     def setUp(self):
         """
